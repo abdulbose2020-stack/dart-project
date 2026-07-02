@@ -47,29 +47,5 @@ class BankAccount {
 
 
 void main() {
-  BankAccount ahmad = BankAccount(
-    owner: 'Ahmad',
-    balance: 10000,
-  );
-
-  BankAccount aisha = BankAccount(
-    owner: 'Aisha',
-    balance: 5000,
-  );
-
-    ahmad.checkBalance();
-    ahmad.deposit(3000);
-    ahmad.withdraw(5000);
-    ahmad.transferMoney(aisha, 1500);
-    ahmad.checkBalance();
-
-print('-----------------');
-
-    aisha.checkBalance();
-    aisha.withdraw(4500);
-    aisha.deposit(2000);
-    aisha.checkBalance();
-
-  print('-------------');
-
+  
 }
